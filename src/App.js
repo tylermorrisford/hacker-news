@@ -34,8 +34,8 @@ export default function App() {
   }
 
   return(
-    <div style={{display: 'grid', alignItems: 'center', justifyContent: 'center'}}> 
-    <h2 style={{textAlign: 'center'}}>Grab Articles From Hacker News</h2>
+    <div style={{fontFamily: 'Helvetica', display: 'grid', alignItems: 'center', justifyContent: 'center'}}> 
+    <h2 style={{textAlign: 'center'}}>Hacker News</h2>
     <div style={{display: 'inline-block', textAlign: 'center'}}>
       <form onSubmit={handleSearch}>
     <input style={{width: '300px'}} type='text' value={query} onChange={event => setQuery(event.target.value)} ref={searchInputRef}></input>
